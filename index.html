@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h4 id="period-el">New Game</h2><br/>
+        <div class="container">
+            <div class="column">
+                <h3>HOME</h3>
+                <h1 id="homeScore-el">0</h1>
+                <div>
+                    <button onclick="homePlus1()">+1</button>
+                    <button onclick="homePlus2()">+2</button>
+                    <button onclick="homePlus3()">+3</button><br/><br/>
+                    <h2 id="homeFouls-el">0</h2><br/>
+                    <button onclick="homeFoulsPlus()">Fouls</button>
+                </div>
+            </div>
+            <div class="column">
+                <h3>GUEST</h3>
+                <h1 id="guestScore-el">0</h1>    
+                <div>
+                    <button onclick="guestPlus1()">+1</button>
+                    <button onclick="guestPlus2()">+2</button>
+                    <button onclick="guestPlus3()">+3</button><br/><br/>
+                    <h2 id="guestFouls-el">0</h2><br/>
+                    <button onclick="guestFoulsPlus()">Fouls</button>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <br/><br/>
+            <button onclick="period()">Period</button><br/><br/>
+            <button onclick="newGame()">New Game</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
